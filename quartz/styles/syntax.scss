@@ -15,3 +15,79 @@ code[data-theme*=" "] span {
 [saved-theme="dark"] code[data-theme*=" "] span {
   color: var(--shiki-dark);
 }
+
+// 定义额外的变量，配合主题色
+$add-background-light: rgba(16, 185, 129, .14);
+$add-text-light: #18794e;
+$remove-background-light: rgba(244, 63, 94, .14);
+$remove-text-light: #b34e52;
+$highlight-border-color: #c2c2c4;
+$warning-background-light: rgba(234, 179, 8, .14);
+
+$blur-opacity: .4;
+$focused-opacity: .7;
+$hover-opacity: 1;
+$blur-amount: .095rem;
+$transition-duration: .35s;
+
+// 适配亮暗主题
+code[data-theme*=" "] {
+  color: var(--shiki-light);
+  background-color: var(--shiki-light-bg);
+
+  &.highlighted-word {
+    background-color: #f6f6f7;
+    border: 1px solid $highlight-border-color;
+    padding: 1px 3px;
+    margin: -1px -3px;
+    border-radius: 4px;
+  }
+
+  .highlighted.error {
+    background-color: $remove-background-light;
+  }
+
+  .highlighted.warning {
+    background-color: $warning-background-light;
+  }
+}
+
+// 针对暗主题的样式设置
+[saved-theme="dark"] code[data-theme*=" "] {
+  color: var(--shiki-dark);
+  background-color: var(--shiki-dark-bg);
+}
+
+[saved-theme="dark"] code[data-theme*=" "] span {
+  color: var(--shiki-dark);
+}
+
+pre.has-diff {
+  .diff.add {
+    background-color: $add-background-light;
+    &::before {
+      content: "+";
+      color: $add-text-light;
+    }
+  }
+
+  .diff.remove {
+    background-color: $remove-background-light;
+    opacity: .7;
+    &::before {
+      content: "-";
+      color: $remove-text-light;
+    }
+  }
+}
+
+pre.has-focused [data-line]:not(.focused) {
+  filter: blur($blur-amount);
+  opacity: $blur-opacity;
+  transition: filter $transition-duration, opacity $transition-duration;
+}
+
+pre:hover.has-focused [data-line]:not(.focused) {
+  filter: blur(0);
+  opacity: $hover-opacity;
+}
