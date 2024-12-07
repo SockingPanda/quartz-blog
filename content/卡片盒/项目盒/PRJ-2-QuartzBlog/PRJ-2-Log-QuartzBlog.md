@@ -1,6 +1,6 @@
 ---
 title: QuartzBlog日志
-create: 2024-11-29 10:05
+date: 2024-11-29 10:05
 tags:
   - 日志
 aliases:

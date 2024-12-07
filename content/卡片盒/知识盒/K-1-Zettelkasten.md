@@ -1,6 +1,6 @@
 ---
 title: Zettelkasten 卡片盒
-create: 2024-11-24 01:24
+date: 2024-11-24 01:24
 tags:
   - 知识概述
 aliases:

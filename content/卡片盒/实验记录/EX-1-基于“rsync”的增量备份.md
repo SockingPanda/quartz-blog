@@ -1,6 +1,6 @@
 ---
 title: 基于“rsync”的增量备份
-create: 2024-12-01 14:40
+date: 2024-12-01 14:40
 tags:
   - 实验记录
 aliases: 

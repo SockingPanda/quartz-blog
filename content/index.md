@@ -1,5 +1,5 @@
 ---
-create: 2024-06-23 19:56
+date: 2024-06-23 19:56
 title: 欢迎来到 SockingPanda 的博客
 public: true
 ---

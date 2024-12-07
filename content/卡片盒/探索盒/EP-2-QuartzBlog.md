@@ -1,6 +1,6 @@
 ---
 title: QuartzBlog
-create: 2024-11-29 10:08
+date: 2024-11-29 10:08
 tags:
   - 探索历程
 aliases:
@@ -101,5 +101,10 @@ npx quartz create
 
 咱只要把生成的dist文件丢上去就好了～先去看看官方教程！
 
+恩……果然还是直接丢上去让它来构建最轻松了……
+
+
+正在配置 `cloudflare` ，
+![Pasted image 20241207162221.png](https://cdn.sockingpanda.com/public/3e65247a77b0fac867ea97fd0e7812b2.png)
 
 
