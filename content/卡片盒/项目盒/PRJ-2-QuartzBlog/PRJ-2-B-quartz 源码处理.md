@@ -17,7 +17,7 @@ public: true
 
 ## 当前进展
 
-- 兼容 `[alt|width](url)` 和 `[alt|widthxheight](url)` 调整图片大小
+- 兼容 `[alt|width](url)` 和 `[alt|widthxheight](url)` 调整图片大小 [[EX-6-修复quartz中对外链图片的大小控制|详情]]
 
 ## 待解决问题
 

@@ -8,9 +8,12 @@ aliases:
 status: 活动
 public: true
 ---
+project：[[PRJ-2-Gate-QuartzBlog]]
+log：[[PRJ-2-Log-QuartzBlog]]
 ## 简介
 
-记录一下自己基于 `quartz` 搭建博客的过程 
+记录一下自己基于 `quartz` 搭建博客的过程。
+
 
 ## 正文
 
@@ -103,8 +106,5 @@ npx quartz create
 
 恩……果然还是直接丢上去让它来构建最轻松了……
 
-
-正在配置 `cloudflare` ，
-![Pasted image 20241207162221.png](https://cdn.sockingpanda.com/3e65247a77b0fac867ea97fd0e7812b2.png)
-
+![[EX-7-quartz部署github page|quartz部署github page]]
 

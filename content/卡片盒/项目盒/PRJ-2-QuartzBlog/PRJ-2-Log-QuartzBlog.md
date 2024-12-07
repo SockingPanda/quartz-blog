@@ -9,7 +9,7 @@ status: 活动
 public: true
 ---
 [[PRJ-2-Gate-QuartzBlog]]
-
+[[EP-2-QuartzBlog]]
 ## 日志内容
 
 ## 2024-11-29
@@ -27,3 +27,10 @@ public: true
 - 完成 `prebuild` 程序
 - 修改 `quartz/plugins/transformers/ofs.ts`，新增对 `[alt|width](url)` 和 `[alt|widthxheight](url)` 调整图片大小
 
+## 2024-12-06
+
+- 整理 [[EX-5-obsidian知识库公开部分迁移、图片上传、链接修正|obsidian知识库公开部分迁移、图片上传、链接修正]]
+
+## 2024-12-07
+
+- [[EX-7-quartz部署github page|部署博客至 `github`]]
