@@ -105,6 +105,6 @@ npx quartz create
 
 
 正在配置 `cloudflare` ，
-![Pasted image 20241207162221.png](https://cdn.sockingpanda.com/public/3e65247a77b0fac867ea97fd0e7812b2.png)
+![Pasted image 20241207162221.png](https://cdn.sockingpanda.com/3e65247a77b0fac867ea97fd0e7812b2.png)
 
 
