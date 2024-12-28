@@ -3,7 +3,7 @@ title: 基于“Deja Dup”的增量备份
 date: 2024-12-02 02:09
 tags:
   - 实验记录
-status: 活动
+status: 已完成
 public: true
 ---
 >[!failure] 没办法在运行系统的时候备份系统盘

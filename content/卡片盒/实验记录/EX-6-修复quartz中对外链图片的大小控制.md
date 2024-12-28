@@ -93,11 +93,11 @@ mdastFindReplace(tree, replacements)
 ^cc0e57
 
 >[!success]+ 看各种形状的快乐小狗！
->![P-14.jpg|100](https://cdn.sockingpanda.com/61433fa13b27a2e71322687ef1c99186.jpg) ![P-14.jpg|80](https://cdn.sockingpanda.com/61433fa13b27a2e71322687ef1c99186.jpg)
+>![61433fa13b27a2e71322687ef1c99186.jpg|100](https://cdn.sockingpanda.com/61433fa13b27a2e71322687ef1c99186.jpg) ![61433fa13b27a2e71322687ef1c99186.jpg|80](https://cdn.sockingpanda.com/61433fa13b27a2e71322687ef1c99186.jpg)
 >
->![P-14.jpg|60](https://cdn.sockingpanda.com/61433fa13b27a2e71322687ef1c99186.jpg) ![P-14.jpg|120](https://cdn.sockingpanda.com/61433fa13b27a2e71322687ef1c99186.jpg)
+>![61433fa13b27a2e71322687ef1c99186.jpg|60](https://cdn.sockingpanda.com/61433fa13b27a2e71322687ef1c99186.jpg) ![61433fa13b27a2e71322687ef1c99186.jpg|120](https://cdn.sockingpanda.com/61433fa13b27a2e71322687ef1c99186.jpg)
 >
->![P-14.jpg|100x120](https://cdn.sockingpanda.com/61433fa13b27a2e71322687ef1c99186.jpg) ![P-14.jpg|20x100](https://cdn.sockingpanda.com/61433fa13b27a2e71322687ef1c99186.jpg)
+>![61433fa13b27a2e71322687ef1c99186.jpg|100x120](https://cdn.sockingpanda.com/61433fa13b27a2e71322687ef1c99186.jpg) ![61433fa13b27a2e71322687ef1c99186.jpg|20x100](https://cdn.sockingpanda.com/61433fa13b27a2e71322687ef1c99186.jpg)
 >```
 >`![dog.jpg|100](https://***.dog.jpg)` `![dog.jpg|80](https://***.dog.jpg)`
 >

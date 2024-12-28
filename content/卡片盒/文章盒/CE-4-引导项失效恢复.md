@@ -8,7 +8,7 @@ public: true
 ---
 ## 前言
 
-好家伙好家伙，前天才写的[[CE-3-Ubuntu增量备份|备份文章]]，昨天就出问题了！![P-28.jpg|100](https://cdn.sockingpanda.com/a9b8e62e3a31d335ddfde1a2e6f47e55.jpg)
+好家伙好家伙，前天才写的[[CE-3-Ubuntu增量备份|备份文章]]，昨天就出问题了！![a9b8e62e3a31d335ddfde1a2e6f47e55.jpg|100](https://cdn.sockingpanda.com/a9b8e62e3a31d335ddfde1a2e6f47e55.jpg)
 
 因为代码中有 `mkdir -p` 没有文件夹会自动创建文件夹嘛，所以它在前面的时候会占用我硬盘本身要挂载的位置，导致硬盘的位置发生变化。本着 *“service部分已经做到了开机以后、硬盘插入以后才被运行”* 这么一个想法，果断给前面的 `mkdir` 删了……
 
@@ -27,7 +27,7 @@ mkdir -p $BACKUP_TYPE_DIR // [!code --]
 
 ```
 
-重启以后经历了长时间黑屏，实在是稳不住了就尝试强行关机。再次开机，无论是 `windows` 还是 `ubuntu` 引导项都消失了！![P-13.jpg|100](https://cdn.sockingpanda.com/94e57211d36a86821061a7400d7c6ae7.jpg)
+重启以后经历了长时间黑屏，实在是稳不住了就尝试强行关机。再次开机，无论是 `windows` 还是 `ubuntu` 引导项都消失了！![94e57211d36a86821061a7400d7c6ae7.jpg|100](https://cdn.sockingpanda.com/94e57211d36a86821061a7400d7c6ae7.jpg)
 
 ![f6b5e73d8ac6b83d28ec21ba5cc38190.jpg](https://cdn.sockingpanda.com/d03051f3b29444fab5364f7f5dc51da5.jpg)
 
@@ -39,7 +39,7 @@ mkdir -p $BACKUP_TYPE_DIR // [!code --]
 
 由于**不了解引导项** ，外加之前的思维惯性 *系统引导项出问题$\approx$系统出问题* ，还有[[CE-3-Ubuntu增量备份|上篇文章]]中备份了数据的自信，我重装了系统，在新系统中去重新恢复数据。
 
-事实证明，增量备份问题挺大的，我保存的那几个文件夹恢复回去直接给我新装的系统搞卡死了……![P-3.jpg|100](https://cdn.sockingpanda.com/1d61010deaaf699c7323892b55621729.jpg)
+事实证明，增量备份问题挺大的，我保存的那几个文件夹恢复回去直接给我新装的系统搞卡死了……![1d61010deaaf699c7323892b55621729.jpg|100](https://cdn.sockingpanda.com/1d61010deaaf699c7323892b55621729.jpg)
 
 综上所述，~~咱又能水一篇文章了！～~~咳咳，开始本文的主题，解决引导项失效问题。
 

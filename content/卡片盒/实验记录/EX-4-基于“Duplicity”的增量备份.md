@@ -3,7 +3,7 @@ title: 基于“Duplicity”的增量备份
 date: 2024-12-02 02:14
 tags:
   - 实验记录
-status: 活动
+status: 已完成
 public: true
 ---
 >[!failure] 上古老工具，链式增量备份，没办法删除前面的增量记录

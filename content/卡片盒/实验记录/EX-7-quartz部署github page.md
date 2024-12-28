@@ -3,7 +3,7 @@ title: quartz部署github page
 date: 2024-12-07 23:59
 tags:
   - 实验记录
-status: 活动
+status: 已完成
 public: true
 ---
 

@@ -9,7 +9,7 @@ public: true
 
 ## 前言
 
-昨天晚上看着手机突发奇想，准备尝试搞搞让手机作为扩展屏扩展一波。看到这篇文章想必就知道我改图形界面配置搞崩了！![P-28.jpg|100](https://cdn.sockingpanda.com/a9b8e62e3a31d335ddfde1a2e6f47e55.jpg)
+昨天晚上看着手机突发奇想，准备尝试搞搞让手机作为扩展屏扩展一波。看到这篇文章想必就知道我改图形界面配置搞崩了！![a9b8e62e3a31d335ddfde1a2e6f47e55.jpg|100](https://cdn.sockingpanda.com/a9b8e62e3a31d335ddfde1a2e6f47e55.jpg)
 
 第一次就是加了这两行：
 
@@ -18,7 +18,7 @@ public: true
 
 这时候 bro 还觉得自己贼牛逼，在朋友表示 “老实点得了” 之后，又去尝试了一次其他方式（指同一个文件换了一部分配置去修改）。
 
-然后，然后就没有然后了……删除 `xorg.conf` 都没得救了……并且最痛苦的是，越是自动修复，越是炸！！！![P-21.jpg|100](https://cdn.sockingpanda.com/48429c6f1f6b0dc1886332cc0ba3f78c.jpg)
+然后，然后就没有然后了……删除 `xorg.conf` 都没得救了……并且最痛苦的是，越是自动修复，越是炸！！！![48429c6f1f6b0dc1886332cc0ba3f78c.jpg|100](https://cdn.sockingpanda.com/48429c6f1f6b0dc1886332cc0ba3f78c.jpg)
 
 ![4d3453bb11592ee9189120a615f57294.jpg](https://cdn.sockingpanda.com/6965778e22072ec3ce613e9d603a068d.jpg)
 
@@ -26,13 +26,13 @@ public: true
 
 ![Pasted image 20241201145519.png](https://cdn.sockingpanda.com/e8a730f99a9fa1d30a6941b679e525da.png)
 
-好在十几天前用 `diskGenious` 分盘的时候有“顺便”为 Ubuntu 系统盘做备份，重要的数据也不在那个盘里～！！![P-29.png|100](https://cdn.sockingpanda.com/aa03b83afeb187cee2f45405185bd83e.png)
+好在十几天前用 `diskGenious` 分盘的时候有“顺便”为 Ubuntu 系统盘做备份，重要的数据也不在那个盘里～！！![aa03b83afeb187cee2f45405185bd83e.png|100](https://cdn.sockingpanda.com/aa03b83afeb187cee2f45405185bd83e.png)
 
 
-坏消息是，我脑子抽了，没有把一些数据一类的文件从坏掉的 Ubuntu 盘里面拿出来，直接执行了恢复……![P-3.jpg|100](https://cdn.sockingpanda.com/1d61010deaaf699c7323892b55621729.jpg)
+坏消息是，我脑子抽了，没有把一些数据一类的文件从坏掉的 Ubuntu 盘里面拿出来，直接执行了恢复……![1d61010deaaf699c7323892b55621729.jpg|100](https://cdn.sockingpanda.com/1d61010deaaf699c7323892b55621729.jpg)
 
 为了避免二次出现这种锤头事情，本喵决定探索一下系统的增量备份方案～
-![P-12.jpg|100](https://cdn.sockingpanda.com/7fd62de3ffa5b7a4318a08cc6109db92.jpg)
+![7fd62de3ffa5b7a4318a08cc6109db92.jpg|100](https://cdn.sockingpanda.com/7fd62de3ffa5b7a4318a08cc6109db92.jpg)
 
 
 ## 需求
